@@ -1,0 +1,29 @@
+# Binários compilados
+*.exe
+*.out
+*.o
+*.a
+*.so
+
+# Diretório de builds e cache do Go
+/bin/
+/pkg/
+/build/
+.coverprofile
+
+# Dependências geradas pelo Go Modules
+go.sum
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache de testes do Go
+*.test
+/testdata/
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
