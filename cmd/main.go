@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(ola.Ola("Mundo", ""))
+	fmt.Println(ola.Ola("", ""))
 }

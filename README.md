@@ -5,6 +5,11 @@ Este repositório contém exemplos e testes para aprender e aprimorar habilidade
 
 ---
 
+## Créditos ao tutorial:
+https://larien.gitbook.io/aprenda-go-com-testes/main
+
+---
+
 ## 📌 Configuração do Projeto
 Antes de começar, inicialize o módulo do projeto:
 
@@ -31,6 +36,14 @@ Executar os testes e verificar a cobertura de código:
 
 ```sh
 go test -cover ./...
+```
+
+Para executar o benchmark, digite no terminal:
+
+```sh
+go test -bench . ./...
+
+go test -bench . -benchmem ./...
 ```
 
 ---
